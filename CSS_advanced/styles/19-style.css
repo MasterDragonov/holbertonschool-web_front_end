@@ -183,6 +183,12 @@ ul.row {
     padding: 0.5rem;
 }
 
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
